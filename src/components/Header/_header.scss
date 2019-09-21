@@ -1,0 +1,15 @@
+.bx--header {
+  background-color: #084022;
+
+}
+.bx--header__menu-item:hover, .bx--header__action:hover {
+  background-color: #0f723a !important;
+}
+
+.link-icon {
+  padding-right: $spacing-01;
+  fill: white;
+}
+.link-with-icon {
+  display: flex;
+}

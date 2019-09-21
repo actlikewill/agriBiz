@@ -1,0 +1,169 @@
+.profile-wrapper {
+  transform: none;
+}
+
+.profile {
+  //border: 1px solid black;
+  height: 100px;
+}
+
+.profile-header {
+  height: 80px;
+  color: #282c34;
+  background-color: #cccccc;
+}
+
+.profile-header h1{
+  @include carbon--type-style('productive-heading-06');
+}
+
+.profile-header h5 {
+  @include carbon--type-style('productive-heading-02');
+}
+
+.profile-content {
+  border-left: 5px solid #F1F1F1;
+  min-height: 100vh;
+}
+.profile-sidebar {
+  display: flex;
+  justify-content: center;
+  //background-color: gold;
+  height: 100vh;
+}
+
+.profile-avatar {
+  margin-top: -60px;
+  background-color: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.profile-summary {
+  @include carbon--type-style('productive-heading-01');
+  margin-top: $spacing-05;
+  color: #969696;
+  text-align: left;
+}
+
+.profile-summary-item {
+  margin: $spacing-03;
+}
+
+.profile-summary-icon {
+  fill: #969696;
+  vertical-align: bottom;
+  margin-right: $spacing-03;
+}
+
+.profile-summary-separator {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.profile-content-tabs {
+ margin-bottom: 7px;
+}
+
+.profile-buttons > * {
+  border-radius: 0 !important;
+}
+
+.profile-buttons button:focus {
+  box-shadow: inset 0 0 0 2px forestgreen;
+}
+
+.profile-content-details {
+  //background-color: crimson;
+  height: 100vh;
+}
+
+.profile-details-heading {
+  @include carbon--type-style('productive-heading-02');
+  color: #ccc;
+  margin-top: $spacing-06;
+  margin-bottom: $spacing-06;
+}
+
+.profile-details-input {
+  margin-bottom: $spacing-05;
+}
+
+.map-wrapper  {
+  position:absolute;
+  top: 0px;
+  left:0px;
+  max-height: 70vh;
+  overflow: hidden;
+}
+
+.toast {
+  position: fixed;
+  z-index: 10000;
+  top: 2rem;
+  left:0;
+}
+
+.confirm-edit-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #cccccc;
+  opacity: .8;
+  z-index: 10000;
+  animation: showModal .2s 1 0s linear;
+}
+
+.confirm-edit {
+  margin: $spacing-05;
+}
+
+.profile-discard-changes-button {
+  background-color: black;
+}
+
+.profile-keep-changes-button {
+  background-color: #084022;
+}
+
+.profile-discard-changes-button:hover {
+  background-color: #282828;
+}
+
+.profile-keep-changes-button:hover {
+  background-color: #0f723a;
+}
+
+.profile-discard-changes-button {
+  background-color: black;
+}
+
+.profile-discard-changes-button:focus {
+  border-color: #282828;
+}
+
+.profile-keep-changes-button:focus {
+  border-color: #0f723a;
+}
+
+@keyframes showModal{
+  0%{
+    transform: translateY(100px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+
+
+
+
+
+
+
+
+

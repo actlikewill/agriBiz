@@ -1,0 +1,16 @@
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss';
+@import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
+@import '@carbon/themes/scss/themes';
+@import 'carbon-components/scss/globals/scss/typography.scss';
+@import 'carbon-components/scss/globals/scss/vars.scss';
+
+
+@import 'set-colors.scss';
+@include carbon--theme($carbon--theme--white);
+$focus: 3px solid green;
+
+@import './components/Header/header.scss';
+@import './components/Footer/footer.scss';
+@import './pages/Home/login.scss';
+@import './pages/Profile/profile.scss';
+
