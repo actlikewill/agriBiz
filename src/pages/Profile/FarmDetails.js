@@ -2,7 +2,7 @@ import React from 'react';
 import {
     TextInput
 } from 'carbon-components-react';
-import Map from './Map';
+
 
 
 const FarmDetails = () => (
@@ -24,8 +24,6 @@ const FarmDetails = () => (
         <div className="profile-details-heading">
             <h1>Farm Location</h1>
         </div>
-
-        <Map />
 
     </div>
 );

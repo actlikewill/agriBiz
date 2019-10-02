@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './img/logo.svg';
+import logo from './img/agribiz.logo.svg';
 import bg from './img/bg.svg';
 import SignInForm from "./SignInForm";
 import SignUpForm from "./SignUpForm";
@@ -39,7 +39,7 @@ class Home extends Component {
                     <div className="bx--row">
                         <div className="bx--col-lg-11 bx--col-md-8 left item">
                             <div className="logo">
-                                <img src={logo} alt="agronome-logo"/>
+                                <img src={logo} alt="agribiz-logo"/>
                             </div>
                         </div>
                         <div className="bx--col-lg-5 bx--col-md-8 right item animate-in">

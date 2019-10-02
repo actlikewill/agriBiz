@@ -15,8 +15,8 @@ import {
 const NavHeader = () => (
     <>
         <Header aria-label="Header">
-            <HeaderName href="/" prefix='Agronome'>
-                AIRES
+            <HeaderName href="/" prefix='Agribiz'>
+                
             </HeaderName>
             <HeaderGlobalBar>
                 <HeaderGlobalAction aria-label="User" onClick={() => navigateTo('/profile')}>
