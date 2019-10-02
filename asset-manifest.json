@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/agriBiz/static/css/main.ed28500f.chunk.css",
+    "main.js": "/agriBiz/static/js/main.8a78f98b.chunk.js",
+    "main.js.map": "/agriBiz/static/js/main.8a78f98b.chunk.js.map",
+    "runtime~main.js": "/agriBiz/static/js/runtime~main.ba053b16.js",
+    "runtime~main.js.map": "/agriBiz/static/js/runtime~main.ba053b16.js.map",
+    "static/js/2.aff6a7ae.chunk.js": "/agriBiz/static/js/2.aff6a7ae.chunk.js",
+    "static/js/2.aff6a7ae.chunk.js.map": "/agriBiz/static/js/2.aff6a7ae.chunk.js.map",
+    "index.html": "/agriBiz/index.html",
+    "precache-manifest.3f7970e09cb031a83a2088bd2cf269ea.js": "/agriBiz/precache-manifest.3f7970e09cb031a83a2088bd2cf269ea.js",
+    "service-worker.js": "/agriBiz/service-worker.js",
+    "static/css/main.ed28500f.chunk.css.map": "/agriBiz/static/css/main.ed28500f.chunk.css.map",
+    "static/media/agribiz.logo.svg": "/agriBiz/static/media/agribiz.logo.41764122.svg",
+    "static/media/bg.svg": "/agriBiz/static/media/bg.aee0d9d4.svg"
+  }
+}
